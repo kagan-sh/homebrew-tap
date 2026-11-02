@@ -1,8 +1,8 @@
 cask "kagan" do
-  version "0.1.1"
-  sha256 "93a5d0be2a73fcc2e65da98887f4637eb425b98134f94ea07a2a164b45cab982"
+  version "0.1.2"
+  sha256 "573ffb6d3bbac7875d4ab6b8f0a2c027942f6682f775fa47c3f94711472a9294"
 
-  url "https://github.com/kagan-sh/kagan/releases/download/v#{version}/kagan_#{version}_aarch64.dmg"
+  url "https://github.com/kagan-sh/kagan/releases/download/v#{version}/kagan_#{version}_universal.dmg"
   name "kagan"
   desc "Desktop app for coding with agents"
   homepage "https://kagan.sh/"
@@ -12,7 +12,6 @@ cask "kagan" do
     strategy :github_latest
   end
 
-  depends_on arch: :arm64
   depends_on :macos
 
   app "kagan.app"
