@@ -1,6 +1,6 @@
 cask "kagan" do
-  version "0.7.0"
-  sha256 "5587c62e53e7c8910a3155485f476eb3ef31d25ec1bef8350c299d4f7aef9fba"
+  version "0.7.1"
+  sha256 "7935adbbe48f0f7a20e8f8279d7c8899fd1b2b2ea0eaafd5140e337bbb098d32"
 
   url "https://github.com/kagan-sh/kagan/releases/download/v#{version}/kagan_#{version}_universal.dmg"
   name "kagan"
